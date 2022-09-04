@@ -5,7 +5,7 @@ int main()
     printf("Enter the number value:");
     scanf("%d",&number);
 
-    for (i = 1; i <= 5; i++)
+    for (i = 1; i <= number; i++)
     {
         fact = fact * i;
          printf("Factorial of given numberis : %d",fact);
